@@ -1,0 +1,9 @@
+browser-->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over server:
+post request contains both content and timestamp
+end note
+
+server-->browser: status code 201
+note over browser:
+it uses JS code to fetch data from server
+end note
